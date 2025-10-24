@@ -32,8 +32,8 @@
         'website',
     ],
     'data': [
-        'security/ir.model.access.csv',
         'security/security_groups.xml',
+        'security/ir.model.access.csv',
         'data/ir_sequence_data.xml',
         'static/src/xml/academic_templates.xml',
     ],
