@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <!-- Academic Base Template -->
+        <template id="AcademicBaseTemplate" name="Academic Base Template">
+            <div class="academic-header">
+                <h1 class="academic-title">Motakamel Edafa Academic System</h1>
+                <p class="academic-subtitle">Comprehensive Academic Management Platform</p>
+            </div>
+        </template>
+
+        <!-- Portal Academic Dashboard -->
+        <template id="portal_academic_dashboard" name="Academic Portal Dashboard">
+            <div class="portal-academic">
+                <div class="portal-container">
+                    <div class="portal-nav">
+                        <a href="#" class="portal-nav-item active">Dashboard</a>
+                        <a href="#" class="portal-nav-item">Students</a>
+                        <a href="#" class="portal-nav-item">Courses</a>
+                        <a href="#" class="portal-nav-item">Reports</a>
+                    </div>
+                    
+                    <div class="portal-card">
+                        <h2 class="portal-card-title">Academic System Overview</h2>
+                        <p>Welcome to the Motakamel Edafa Academic Management System.</p>
+                        <p>This system provides comprehensive management of students, courses, instructors, and academic operations.</p>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <!-- Student Portal Dashboard -->
+        <template id="portal_student_dashboard" name="Student Portal Dashboard">
+            <div class="portal-academic">
+                <div class="portal-container">
+                    <div class="portal-nav">
+                        <a href="#" class="portal-nav-item active">My Dashboard</a>
+                        <a href="#" class="portal-nav-item">My Courses</a>
+                        <a href="#" class="portal-nav-item">My Progress</a>
+                        <a href="#" class="portal-nav-item">My Profile</a>
+                    </div>
+                    
+                    <div class="portal-card">
+                        <h2 class="portal-card-title">Student Dashboard</h2>
+                        <div class="student-info">
+                            <div class="student-info-item">
+                                <div class="student-info-label">Student ID</div>
+                                <div class="student-info-value">STU-001</div>
+                            </div>
+                            <div class="student-info-item">
+                                <div class="student-info-label">Academic Year</div>
+                                <div class="student-info-value">2024-2025</div>
+                            </div>
+                            <div class="student-info-item">
+                                <div class="student-info-label">Enrolled Courses</div>
+                                <div class="student-info-value">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <!-- Instructor Portal Dashboard -->
+        <template id="portal_instructor_dashboard" name="Instructor Portal Dashboard">
+            <div class="portal-academic">
+                <div class="portal-container">
+                    <div class="portal-nav">
+                        <a href="#" class="portal-nav-item active">My Dashboard</a>
+                        <a href="#" class="portal-nav-item">My Courses</a>
+                        <a href="#" class="portal-nav-item">My Students</a>
+                        <a href="#" class="portal-nav-item">Content Management</a>
+                    </div>
+                    
+                    <div class="portal-card">
+                        <h2 class="portal-card-title">Instructor Dashboard</h2>
+                        <p>Welcome to the instructor portal. Manage your courses, students, and content from here.</p>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+    </data>
+</odoo>

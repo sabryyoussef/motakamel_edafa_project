@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        
+        <!-- Demo Academic Configuration -->
+        <record id="demo_academic_config" model="academic.config">
+            <field name="institution_name">Motakamel Edafa Academy - Demo</field>
+            <field name="institution_code">MEA-DEMO</field>
+            <field name="current_academic_year">2024-2025</field>
+            <field name="system_version">18.0.1.0.0</field>
+            <field name="max_students_per_course">50</field>
+            <field name="min_students_per_course">5</field>
+            <field name="course_duration_days">30</field>
+            <field name="currency_id" ref="base.USD"/>
+            <field name="payment_terms">Payment due within 30 days of enrollment</field>
+            <field name="email">info@motakamel-edafa-demo.com</field>
+            <field name="phone">+966-11-123-4567</field>
+            <field name="website">https://demo.motakamel-edafa.com</field>
+            <field name="address">123 Education Street, Riyadh, Saudi Arabia</field>
+        </record>
+
+    </data>
+</odoo>

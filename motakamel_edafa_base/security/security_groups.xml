@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        
+        <!-- Academic System Admin Group -->
+        <record id="group_academic_admin" model="res.groups">
+            <field name="name">Academic System Administrator</field>
+            <field name="category_id" ref="base.module_category_administration"/>
+            <field name="comment">Full access to all academic system features and configurations</field>
+        </record>
+
+        <!-- Academic Manager Group -->
+        <record id="group_academic_manager" model="res.groups">
+            <field name="name">Academic Manager</field>
+            <field name="category_id" ref="base.module_category_administration"/>
+            <field name="comment">Manage academic operations, courses, and student affairs</field>
+        </record>
+
+        <!-- Academic User Group -->
+        <record id="group_academic_user" model="res.groups">
+            <field name="name">Academic User</field>
+            <field name="category_id" ref="base.module_category_administration"/>
+            <field name="comment">Basic access to academic system features</field>
+        </record>
+
+        <!-- Student Group -->
+        <record id="group_student" model="res.groups">
+            <field name="name">Student</field>
+            <field name="category_id" ref="base.module_category_administration"/>
+            <field name="comment">Access to student portal and enrolled courses</field>
+        </record>
+
+        <!-- Instructor Group -->
+        <record id="group_instructor" model="res.groups">
+            <field name="name">Instructor</field>
+            <field name="category_id" ref="base.module_category_administration"/>
+            <field name="comment">Access to instructor portal and course management</field>
+        </record>
+
+        <!-- Content Manager Group -->
+        <record id="group_content_manager" model="res.groups">
+            <field name="name">Content Manager</field>
+            <field name="category_id" ref="base.module_category_administration"/>
+            <field name="comment">Manage course content and digital assets</field>
+        </record>
+
+        <!-- Financial Manager Group -->
+        <record id="group_financial_manager" model="res.groups">
+            <field name="name">Financial Manager</field>
+            <field name="category_id" ref="base.module_category_administration"/>
+            <field name="comment">Access to financial reports and payment management</field>
+        </record>
+
+        <!-- HR Manager Group -->
+        <record id="group_hr_manager" model="res.groups">
+            <field name="name">HR Manager</field>
+            <field name="category_id" ref="base.module_category_administration"/>
+            <field name="comment">Manage instructors and staff</field>
+        </record>
+
+    </data>
+</odoo>
