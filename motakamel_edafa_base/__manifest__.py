@@ -35,6 +35,7 @@
         'security/security_groups.xml',
         'security/ir.model.access.csv',
         'data/ir_sequence_data.xml',
+        'views/academic_config_views.xml',
         'static/src/xml/academic_templates.xml',
     ],
     'demo': [
