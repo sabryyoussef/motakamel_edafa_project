@@ -39,7 +39,6 @@
     'assets': {
         'web.assets_backend': [
             'education_theme/static/src/scss/education_backend.scss',
-            'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js',
             'education_theme/static/src/js/sidebar_menu.js',
             'education_theme/static/src/xml/sidebar.xml'
         ],
